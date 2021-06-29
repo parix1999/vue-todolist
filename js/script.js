@@ -11,13 +11,20 @@ new Vue (
             // Dato inserito dall'utente che sarà inserito poi in array: 
             newTask : '',
         },
-        // Funzione di aggiunta:
+        
         methods:{
+            // Funzione di aggiunta:
             add:function(){
                 let push = this.toDoList.push(this.newTask);
                 // Una volta pushato ritorna la stringa vuota:
                 this.newTask = '';
                 return push;
+            },
+            // Funzione per togliere:
+            remove:function(index){
+                // Tolgo dall'indice
+                let toRemuve = this.toDoList.splice(index, 1);
+                return toRemuve;
             }
         }
 
