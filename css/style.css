@@ -1,5 +1,10 @@
-
 .box-logo img{
     width:100%;
     justify-content: center;
+}
+.spazio-sopra{
+    margin-top:24px;
+}
+.totale-larghezza{
+    width:100%;
 }
