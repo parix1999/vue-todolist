@@ -11,7 +11,21 @@
 </head>
 <body>
     
-    
+    <!--base to do  -->
+    <div id="app">
+
+        <input placeholder="Nuovo Todo">
+        <button @click="">Aggiungi</button>
+
+        <!-- Lista di cose: -->
+        <ul>
+            <li v-for="todo in toDoList">
+                {{todo}}
+            </li>
+        </ul>
+
+
+    </div>
 
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
