@@ -8,3 +8,17 @@
 .totale-larghezza{
     width:100%;
 }
+.bg-gray{
+    background-color: #f5f7f7;
+    border-radius: 15px;
+    padding-right: 24px;
+}
+.bg-gray ul{
+    list-style: none;
+}
+.bg-gray ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:34px;
+}
