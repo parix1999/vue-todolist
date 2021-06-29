@@ -9,8 +9,9 @@ new Vue (
                 'Fare il bucato',
             ],
             // Dato inserito dall'utente che sarà inserito poi in array: 
-            newTask = '',
+            newTask : '',
         },
+
     }
 
 
