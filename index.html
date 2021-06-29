@@ -17,7 +17,7 @@
 
         <!-- Per estrapolare l'informazione inserita
         con l'input, e utilizzare il dato, utilizzo v-model -->
-        <input v-model="newTask" @keyup.enter="add" placeholder="Nuovo Todo">
+        <input id="focalize" v-model="newTask" @keyup.enter="add" placeholder="Nuovo Todo">
         <button @click="add()">Aggiungi</button>
 
         <!-- Lista di cose: -->
