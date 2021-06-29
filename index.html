@@ -14,7 +14,9 @@
     <!--base to do  -->
     <div id="app">
 
-        <input placeholder="Nuovo Todo">
+        <!-- Per estrapolare l'informazione inserita
+        con l'input, e utilizzare il dato, utilizzo v-model -->
+        <input v-model="newTask" placeholder="Nuovo Todo">
         <button @click="">Aggiungi</button>
 
         <!-- Lista di cose: -->
